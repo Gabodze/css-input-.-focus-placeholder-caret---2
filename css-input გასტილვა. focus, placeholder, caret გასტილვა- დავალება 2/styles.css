@@ -1,0 +1,64 @@
+@font-face {
+    font-family: 'Inter';
+    src: url(./fonts/Inter-Medium.ttf);
+}*{
+    box-sizing: border-box;
+}
+
+
+
+
+.container{
+    border: 1px solid #E0E0E0;
+    width: 378px;
+    height: 274px;
+    border-radius: 4px;
+    padding: 30px;
+    background-color: #F5F5F5;
+    margin: auto;
+    margin-top: 142px;
+}
+.innerDiv{
+    width: 100%;
+}
+
+
+label, input, button{
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+
+
+}
+label{
+    color: #616161;
+}
+input {
+    margin-top: 6px;
+    width: 315px;
+    height: 45px;
+    border-radius: 10px;
+    border: 1px solid #E0E0E0;
+    background-color: white;
+    padding: 12px;
+    color: #9E9E9E;
+}
+.passwordInput{
+    padding-top: 15px;
+}
+button{
+    width: 315px;
+    height: 45px;
+    border-radius: 10px;
+    border: 0;
+    background-color: #FFD43A;
+    color: #000;
+    text-align: center;
+}
+
+input::placeholder{
+    color: #aeaeae;
+}
